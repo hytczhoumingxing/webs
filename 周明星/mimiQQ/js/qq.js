@@ -22,7 +22,13 @@ $(function(){
 		html += '				<div friendAID = "friendA'+friendID+'" chatDivID="' + chatDivID + '" class="chatClose">关闭</div>';
 		html += '			</div>';
 		html += '			<div class="chatHistory"></div>';
-		html += '			<div class="chatControl"></div>';
+		html += '			<div class="chatControl">';
+        html += '                <div class="biaoqing">';
+        html += '                    <span> ';          
+        html += '                 </div>';
+        html += '                <div class="wenben"></div>';
+        html += '                <div class="fasong"></div>';
+		html += '           </div>';
 		html += '		</div>';
 
 		$("body").append(html);
@@ -73,6 +79,21 @@ $(function(){
            $(this).next().show();
         });
          $(".qun").click(function(){
+           $(".same").hide();
            $(this).parent().parent().next().next().show();
-        });                        
+        }); 
+        $(".hy").click(function(){
+           $(".same").hide();
+           $(this).parent().parent().next().show();
+        });
+        /*$(".people").click(function(){
+
+           $(".equ").hide();
+           $(this).parent().parent().prev().show();
+        });
+        $(".chat").click(function(){
+
+           $(".equ").hide();
+           $(this).parent().parent().prev().prev().show();
+        });  */                                                                                                                         
 });
