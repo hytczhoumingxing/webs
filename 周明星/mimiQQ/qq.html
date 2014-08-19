@@ -2,8 +2,11 @@
 <head>
 	<title>QQ</title>
 	<meta charset="utf-8" >
-	<link id="cssLink" rel="stylesheet" type="text/css" href="css/qq.css?time=3424">
-	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+  <link id="cssLink" rel="stylesheet" type="text/css" href="css/qq.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/qq.js"></script>
 </head>
 <body>
@@ -79,9 +82,9 @@
         <div id="chater" class="equ" >
                <div class="conter">
                     <ul>
-                       <li class="hy nomal ">好友</li>
-                       <li class="qun nomal1 ">群</li>
-                       <li class="tlz nomal2 ">讨论组</li>
+                       <li class="hy nomal nomals">好友</li>
+                       <li class="qun nomal1 nomals">群</li>
+                       <li class="tlz nomal2 nomals">讨论组</li>
                     </ul>
                </div>
                <ul class="hyul same">
@@ -89,6 +92,7 @@
                            <div class="myf">
                               <span class="myf1">我的好友</span>
                               <span class="myf2">2/3</span>
+
                            </div>
                        </li>
                        <ul class="haoyouul">
@@ -306,27 +310,27 @@
         </div>
         <div class="bottom">
                <ul class="bottul">
-                  <li class="chat">
+                  <li class="chat ">
                       <a >
-                        <div class="bottulli"></div>
+                        <div class="bottulli bottall bottallS"></div>
                         <span class="bottomspan">会话</span>
                       </a>
                   </li>
-                  <li class="people">
+                  <li class="people ">
                       <a >
-                        <div class="bottulli1"></div>
+                        <div class="bottulli1 bottall"></div>
                         <span class="bottomspan">联系人</span>
                       </a>
                   </li>
-                  <li class="find">
+                  <li class="find ">
                        <a >
-                        <div class="bottulli2"></div>
+                        <div class="bottulli2 bottall"></div>
                         <span class="bottomspan">发现</span>
                       </a>
                   </li>
-                  <li class="set">
+                  <li class="set ">
                        <a >
-                        <div class="bottulli3"></div>
+                        <div class="bottulli3 bottall"></div>
                         <span class="bottomspan">设置</span>
                       </a>
                   </li>
@@ -334,7 +338,47 @@
         </div>
 	</div>
 
-
+    <div class="setkuang">
+         <div class="settitle">
+               <div class="settitleL">
+                  <span>设置</span>
+               </div>
+         </div>
+         <div class="setcontent">
+                <div class="setcontent1">
+                       <div class="setcontent1s">
+                          <span>声音</span>
+                          <div class="huad" turn="right">
+                              <div class="ball"></div>
+                          </div>
+                       </div>
+                       <div class="setcontent1x">
+                          <span>消息浮窗</span>
+                          <div class="huad" turn="right">
+                              <div class="ball"></div>
+                          </div>
+                      </div>
+              </div>
+              <div class="setcontent2">
+                    <div class="row">
+                        <div class="row1">
+                            <span>HTTPS</span>
+                             <div class="huad" turn="right">
+                              <div class="ball"></div>
+                             </div>
+                        </div>
+                        <div class="row2">使用 HTTPS 加密聊天内容</div>
+                    </div>
+              </div>
+              <div class="setcontent3">
+                   <div class="setcontent3l">
+                       <span>按Ctrl+Enter键发送消息</span>
+                        <div class="huad" turn="right">
+                            <div class="ball"></div>
+                        </div>
+                   </div>
+              </div>
+    </div>
 
 </body>
 </html>
