@@ -46,5 +46,12 @@ $(".item").hover(function(){
           //var m=$().attr(sex);
          //$(".man").addClass(sex);
         
-   }); 
+   });  
+
+    $(".lovecaseR1").mouseover(function(){
+        $(this).find(".yiny").animate({bottom:"0px"},300);
+    });
+    $(".lovecaseR1").mouseleave(function(){
+        $(this).find(".yiny").animate({bottom:"-46px"},200);
+    });
 });
