@@ -45,7 +45,7 @@ ul li{list-style: none;list-style-type: none;}
          display: block;float: left;text-decoration: none;border-right: 2px solid #333;border-bottom: 2px solid #333;opacity: 1;}
 .lable1 a:hover{background-color: #26bde7;}
 .pos1{width: 248px;height: 286px;position: absolute;overflow: hidden;background: #000;}
-.pos1 img{display: block;text-align: center;width: 248px;height: 286px;}
+.item{display: block;text-align: center;width: 248px;height: 286px;}
 .pos2{width: 123px;height: 142px;position: absolute;overflow: hidden;background: #000;float: left;top: 0;left: 250px;}
 .pos2 img{display: block;text-align: center;width: 123px;height: 142px;}
 .pos3{width: 123px;height: 142px;position: absolute;overflow: hidden;background: #000;float: left;top: 0;left: 375px;}
@@ -80,3 +80,35 @@ ul li{list-style: none;list-style-type: none;}
 .pos17 img{display: block;text-align: center;width: 123px;height: 142px;}
 .pos18{width: 123px;height: 142px;position: absolute;overflow: hidden;background: #000;float: left;top: 432px;left: 875px;}
 .pos18 img{display: block;text-align: center;width: 123px;height: 142px;}
+.more{margin: 40px 0 0 0;padding: 0 0 30px 0;z-index: 2;position: relative;}
+.search{width: 25px;height: 25px;display: block;font-size: 18px;color: #ccc;position: absolute;top: 2px;
+       left: 0;background-position: 0 -344px;background-image: url("images/sprite.png");}
+.moresp{color: #ccc; display: block;float: left;width: 190px;height: 28px;margin-left: 25px;font-size: 18px;font-weight: 400;
+	    float: left;padding-right: 10px;line-height: 28px;}
+.s1{width: 180px;height: 28px;padding-left: 26px;float: left;}
+.find{font-size: 18px;font-weight: 400;float: left;padding-right: 10px;line-height: 28px;color: #ccc;}
+.chose{width: 84px;height: 27px;line-height: 26px;font-size: 16px;color: #999;padding-left: 10px;float: left; 
+	   border: 1px #666 solid;position: absolute;top: 0;left: 0;z-index: 10;background: #303438;cursor: pointer;}
+.man{display: block;font-size: 16px;width: 60px;height: 24px;}
+.chos{width: 90px;float: left;position: relative;}
+.xiabiao{font-size: 0;width: 9px;height: 5px;position: absolute;top: 12px;margin-right: 4px;
+        right: 0;z-index: 11;cursor: pointer;background-image: url("images/sprite.png");background-position: -36px -344px;}
+.chosexia{display: none; width: 110;height: 75px;position: absolute;top: 30px;border: 1px solid #666;color: #ccc;background-color: #57595b;}  
+.chosli{margin-top: 15px;margin-left: 15px;list-style: none;cursor: pointer;} 
+.same{display: block;font-size: 16px;width: 60px;height: 24px;} 
+.chosexia1{display: none; width: 110;height: 158px;position: absolute;top: 30px;border: 1px solid #666;color: #ccc;background-color: #57595b;left: -3px;}
+.chose1{width: 84px;height: 27px;line-height: 26px;font-size: 16px;color: #999;padding-left: 10px;float: left; 
+	   border: 1px #666 solid;position: absolute;top: 0;left: 0;z-index: 10;background: #303438;cursor: pointer;}    
+.chos1li{margin-top: 5px;margin-left: 15px;list-style: none;cursor: pointer;}
+.chose2{width: 124px;height: 27px;line-height: 26px;font-size: 16px;color: #999;padding-left: 10px;float: left; 
+	   border: 1px #666 solid;position: absolute;top: 0;left: 0;z-index: 10;background: #303438;cursor: pointer;}
+.s2{width: 150px;height: 28px;padding-left: 26px;float: left;}
+.s3{width: 230px;height: 28px;padding-left: 26px;float: left;}	
+.sou{width: 125px;height: 29px;position: relative;background-color: #219dc0;display: block;float: left;cursor: pointer;opacity: 0.8;}
+.sou:hover{opacity: 1;}
+.sou span{color: #fff;text-align: center;display: block;line-height: 29px;font-weight: bold;}
+.users{background-color: #eff0f0;padding: 30px 0 40px 0;}
+.usersm{width: 1000px;margin: 0 auto;}
+.sprite{height: 41px;line-height: 34px;padding: 0 0 35px 60px;font-size: 28px;color: #3f3f3f;background-color: #eff0f0;
+background-position: 0 -545px;
+background-repeat: no-repeat;}
