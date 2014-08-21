@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;list-style-type: none;}
+
+body{color: #eedebb;margin: 0;padding: 0;background-color: #220e09;background: url("images/bg_main.jpg") center top no-repeat #210e09;}
+.header{width: 780px;margin: 0 auto;}
+.header a{display: block;width: 304px;height: 139px;margin: 0 auto;background: url("images/dovelogo.png");}
+.menu{height: 34px;}
+.menu1{width: 1025px;height: 34px;margin: 0 auto;}
+.menuul{position: relative;z-index: 100;}
+.menuli{height: 34px;background-image: url("images/m1.png");display: block;background-position: left;width: 103px;float: left;}
+.menuli1{display: block;float: left;width: 164px;height: 34px;}
+.active{display: block;width: 100%;padding-top: 9px;height: 25px;text-align: center;text-decoration: none;font-weight: normal;
+        font-size: 14px;font-style: italic;color: #eedebb;background-image: url("images/main.png");font-family: Georgia, "Times New Roman", Times, serif;}
+.active1{display: block;width: 100%;padding-top: 9px;height: 25px;text-align: center;text-decoration: none;
+        font-size: 14px;font-style: italic;color: #eedebb;background-image: url("images/main_1.png");}
+.menuli2{display: block;float: left;width: 102px;height: 34px;}
+.xiaul{width: 164px;height: 132px;display: none;}
+.xiali{width: 164px;height: 33px;border-top: 1px solid #431e16;float: none;width: 100%;}
+.xialia{height: 25px;padding-top: 9px;background-image: url("images/main3.png");text-align: center;outline: none;
+        text-decoration: none;display: block;color: #eedebb; font-weight: bold;font-size: 12px;font-family: Georgia, "Times New Roman", Times, serif;}
+.xiaul1{width: 164px;height: 132px;display: none;}
+.xiaul2{width: 164px;height: 132px;display: none;}
+.menuli3{display: block;float: left;width: 164px;height: 34px;}
+.menuli4{display: block;float: left;width: 164px;height: 34px;} 
+.menuli5{display: block;float: left;width: 164px;height: 34px;}      
