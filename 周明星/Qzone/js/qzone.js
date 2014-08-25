@@ -62,6 +62,29 @@ $(function(){
            $(".combox1").hide();
            return false;
       });
+      $(".fabiao").click(function(){
+        var html="";
+        var w=$(".comboxin").val();
+        html+='<div class="yipl">';
+        html+='  <div class="ui-avatar">';
+        html+='     <img class="juest" src="css/images/30.png">';
+        html+='  </div>';
+        html+='  <div class="comments-content">';
+        html+='     <a class="coma" href="">juest:</a>';
+        html+="     "+w+"";
+        html+='  </div>';
+        html+='</div>';
+        $(this).parent().parent().parent().find(".yomm").append(html);
+      });
+      $(".butt").click(function(){
+         var liuyan="";
+         var p=$(".texta").val();
+         liuyan+='<li class="lt1">';
+         liuyan+='<a class="lt1a" href="#">死相伴:</a>';
+         liuyan+="<span>"+p+"</span>";
+         liuyan+="</li>";
+         $(this).parent().parent().next().append(liuyan);
+      });
   });
          
 
