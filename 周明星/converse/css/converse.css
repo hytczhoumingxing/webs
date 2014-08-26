@@ -16,15 +16,17 @@ h2{position: fixed;top: 27px;left: 27px;z-index: 83;}
 	overflow: hidden;z-index: 999;cursor: pointer;}
 .up img{width: 60px;height: 39px;}
 .main2ul{position: absolute;top: 23.1667%;width: 100%;text-align: center;}
-.m2li{position: relative;display: inline-block;overflow: hidden;width: 335px;
-	 height: 505px;float: left;top:-30px;left: 200px;z-index: 500;}
+.m2li{position: relative;display: inline-block;overflow: hidden;width: 336px;
+	 height: 505px;float: left;top:-30px;left: 200px;z-index: 500; }
 .m2lia{display: block;}
-.m2lia img{width: 335px;height: 505px;display: block;}
+.m2lia img{width: 320px;height: 490px;display: block;transition-duration: 0.4s;transition-delay:1s;transition-timing-function:ease-in;}
 .m2li1{position: relative;display: inline-block;overflow: hidden;width: 335px;
 	 height: 505px;float: left;top:-30px;left: 200px;z-index: 500;}
 .m2li1a{display: block;}
-.m2li1a img{width: 335px;height: 505px;display: block;}
+.m2li1a img{width: 320px;height: 490px;display: block;transition-duration: 0.4s;transition-delay:1.3s;transition-timing-function:ease-in;}
 .m2li2{position: relative;display: inline-block;overflow: hidden;width: 335px;
 	 height: 505px;float: left;top:-30px;left: 200px;z-index: 500;}
 .m2li2a{display: block;}
-.m2li2a img{width: 335px;height: 505px;display: block;}
+.m2li2a img{width: 320px;height: 490px;display: block;transition-duration:0.4s;transition-delay:1.6s;transition-timing-function:ease-in;}
+.stron{position: absolute;top: 30.848%;left: 6.589%;z-index: 2;display: block;width: 87.0155%;height: 25%;overflow: hidden;}
+.stron img{width: 292px;height: 177px;display: block;}

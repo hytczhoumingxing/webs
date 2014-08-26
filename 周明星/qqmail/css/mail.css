@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;list-style-type: none;}
+
+
+.head{height: 66px;overflow: hidden;display: block;}
+.head1{height: 66px;}
+.logo{position: absolute;left: 5px;z-index: 6;}
+.logpa{width: 215px;height: 60px;display: block;float: left;}
+.swith{display: block;float: left;margin: 12px 0 0 0;line-height: 18px;}
+.swith1{width: 193px;height: 37px;}
+.sws1{font-weight: bold;font-size: 12px;}
+.sws2{font-size: 13px;font-family: "lucida Grande",Verdana;margin-left: -7px;}
+.swa{width: 132px;height: 14px;}
+.swaa{font-size: 12px;text-decoration: none;float: left;display: block;height: 14px;width:50px;color: #1e5494;}
+.swaa1{font-size: 12px;text-decoration: none;float: left;display: block;height: 14px;width:30px;color: #1e5494;margin-left: 3px;}
+.swaa2{font-size: 12px;text-decoration: none;float: left;display: block;height: 14px;width:30px;color: #1e5494;margin-left: 2px;}
+.swa span{display: block;float: left;font-size: 12px;}
+.swaa:hover{text-decoration:underline;}
+.swaa1:hover{text-decoration:underline;}
+.swaa2:hover{text-decoration:underline;}
+.topbg{float: right;height: 66px;background:url("images/topbg.jpg") top right;width: 486px;background-repeat: no-repeat;}
+.topbg1{display: block;float: right;margin-top: 5px;}
+.topbg1 span{float: left;font-size: 12px;}
+.topbg2{width: 286px;height: 28px;float: right;margin-top: 37px;margin-right: -160px;}
+.tb2in{background: #fff;width: 100%;height: 18px;line-height: 18px;font-size: 12px;padding: 0;
+	   border: 0;outline: none;color: rgb(160, 160, 160);float: left;}
+.topbg2s{border: 1px solid #BBB;background: #FFF;padding: 1px 21px;
+         height: 18px;line-height: 18px;margin: 3px 5px 3px 2px;border-radius: 2px;box-shadow: 0 1px 1px #E6E6E6 inset;}
+.topbg2sp{width: 18px;height: 16px;display: inline-block;vertical-align: middle;background: url("images/sm.png") no-repeat;
+          background-position: -3px -3px;float: left;margin-left: -22px;}         
