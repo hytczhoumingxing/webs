@@ -67,7 +67,7 @@ ul li{list-style: none;}
 .list span{display: block;float: left;font-size: 13px;color: #666;} 
 .menu{width: 1146px;height: 39px;background-color: #c1d9f3;margin-top: 3px;} 
 .button{width: 504px;height: 39px;line-height: 39px;padding-top: 10px;} 
-.buta1{height: 22px;text-align: center;border-radius: 3px;text-decoration: none;border: 1px solid #888;margin-left: 5px;
+.buta1{cursor: pointer; height: 22px;text-align: center;border-radius: 3px;text-decoration: none;border: 1px solid #888;margin-left: 5px;
  	   width: 60px;font-size: 12px;color: #000000;line-height: 22px;display: block;background-color: #fff;float: left;}
 .buta2{height: 22px;text-align: center;border-radius: 3px;text-decoration: none;border: 1px solid #888;margin-left: 5px;
  	   width: 80px;font-size: 12px;color: #000000;line-height: 22px;display: block;background-color: #fff;float: left;}
