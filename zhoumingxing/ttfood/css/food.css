@@ -28,12 +28,71 @@ ul,li{list-style: none;list-style-type: none;}
 .nav{width: 100%;height: 43px;margin-bottom: 10px;background: url("images/navbg5.png") repeat-x;}
 .navs{width: 990px;height: 43px;margin: 0 auto;}
 .navsul{width: 595px;height: 40px;float: left;}
-.navsul li{float: left;font-size: 14px;height: 40px;line-height: 40px;}
-.navsul li a{text-decoration: none;color: #fff;padding: 0 20px;font-weight: bold;}
+.navli1{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli2{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli3{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli4{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli5{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli6{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.navli7{float: left;font-size: 14px;height: 40px;line-height: 40px;}
+.nava{text-decoration: none;color: #fff;padding: 0 20px;font-weight: bold;}
 .navsul1{width: 200px;height: 40px;float: right;}
 .navsul1 li{float: left;font-size: 12px;height: 40px;line-height: 40px;}
 .navsul1 li a{text-decoration: none;color: #fff;padding: 0 8px;}
-.navsul li:hover{background-color: #999999;}
-.jcc{width: 984px;height: 74px;position: relative;top: 40px;}
-.jcc li{ display: block;}
-.jcc li a{text-decoration: none;}
+.navli1:hover{background-color: #999999;}
+.navli2:hover{background-color: #999999;}
+.navli3:hover{background-color: #999999;}
+.navli4:hover{background-color: #999999;}
+.navli5:hover{background-color: #999999;}
+.navli6:hover{background-color: #999999;}
+.navli7:hover{background-color: #999999;}
+.jcc{cursor: pointer; width: 964px;height: 52px;position: absolute;top: 148px;border-left: 2px solid #090;background-color: #fff;left: 200px;display: none;
+     border-right: 2px solid #090;border-bottom: 2px solid #090;opacity: 0.85;overflow: auto;z-index: 100;padding: 10px;}
+.jcc li{ width: 115px;float: left;font-size: 14px;color: #999;line-height: 26px;display: inline;padding: 0 1px 0 1px;}
+.jcc li a{text-decoration: none;color: #333;padding: 0 8px;}
+.zhcp{width: 964px;height: 80px;position: absolute;top: 148px;border-left: 2px solid #090;background-color: #fff;display: none;left: 200px;
+     border-right: 2px solid #090;border-bottom: 2px solid #090;opacity: 0.85;overflow: auto;z-index: 100;padding: 10px;}
+.zhcp li{ width: 115px;float: left;font-size: 14px;color: #999;line-height: 26px;display: inline;padding: 0 1px 0 1px;}
+.zhcp li a{text-decoration: none;color: #333;padding: 0 8px;}
+.xc{width: 964px;height: 52px;position: absolute;top: 148px;border-left: 2px solid #090;background-color: #fff;display: none;left: 200px;
+     border-right: 2px solid #090;border-bottom: 2px solid #090;opacity: 0.85;overflow: auto;z-index: 100;padding: 10px;}
+.xc li{ width: 115px;float: left;font-size: 14px;color: #999;line-height: 26px;display: inline;padding: 0 1px 0 1px;}
+.xc li a{text-decoration: none;color: #333;padding: 0 8px;}
+.rqss{width: 964px;height: 52px;position: absolute;top: 148px;border-left: 2px solid #090;background-color: #fff;display: none;left: 200px;
+     border-right: 2px solid #090;border-bottom: 2px solid #090;opacity: 0.85;overflow: auto;z-index: 100;padding: 10px;}
+.rqss li{ width: 115px;float: left;font-size: 14px;color: #999;line-height: 26px;display: inline;padding: 0 1px 0 1px;}
+.rqss li a{text-decoration: none;color: #333;padding: 0 8px;}
+.sc{width: 964px;height: 52px;position: absolute;top: 148px;border-left: 2px solid #090;background-color: #fff;display: none;left: 200px;
+     border-right: 2px solid #090;border-bottom: 2px solid #090;opacity: 0.85;overflow: auto;z-index: 100;padding: 10px;}
+.sc li{ width: 115px;float: left;font-size: 14px;color: #999;line-height: 26px;display: inline;padding: 0 1px 0 1px;}
+.sc li a{text-decoration: none;color: #333;padding: 0 8px;}
+.main{width: 960px;margin: 0 auto;padding: 10px 15px 0px 15px;background-color: #fff;overflow: auto;}
+.mainleft{float: left;width: 250px;overflow: auto;font-size: 14px;}
+.mlul li{line-height: 18px;border-bottom: 1px dotted #ccc;height: 54px;margin-bottom: 4px;font-size: 12px;}
+.mlul li img{margin-right: 5px;width: 60px;height: 50px;border: 1px solid #CCCCCC;display: block;float: left;}
+.mlul li a{text-decoration: none;color: red;}
+.qqq li{float: left;font-size: 12px;width: 50%;border-bottom: 1px dotted #ccc;height: 21px;line-height: 21px;}
+.qqq li a{text-decoration: none;color: #666;}
+.qqq li a:hover{color:red;text-decoration: underline;}
+.mainmid{padding: 4px;background: #690;width: 302px;position: relative;height: 405px;overflow: hidden;float: left;margin-left: 3px;}
+.mainmidcontent{height: 354px;overflow: hidden;border: solid 1px #fff;background: url("images/1.jpg");}
+.mainmid ul li{ display: block;float: left;width: 100px;cursor: pointer;padding-top: 5px;height: 40px;text-align: center;z-index: 999;}
+.mida{display: block;width: 85px;margin: 0px auto;height: 32px;line-height: 16px;font-size: 12px;
+                        overflow: hidden;color: #ffffff;position: relative;z-index: 12;text-decoration: none;}
+.current{color: #090;}
+.flow{z-index: 10;background: url("images/fcurrent.gif");left: 4px;width: 100px;
+      position: absolute;height: 45px;overflow: hidden;}  
+.mainright{width: 360px;float: right;} 
+.index_1{font-family: Microsoft Yahei,Arial;font-size: 18px;font-weight: bold;color: #f00;text-decoration: none;} 
+.indexul{margin-top: 8px;}
+.indexul li{width: 180px;float: left;line-height: 20px;height: 20px;font-size: 12px;color: 666;} 
+.indexul li a{text-decoration: none;font-size: 12px;color: #666;}
+.nextmain{width: 960px;margin: 0 auto;padding: 10px 15px 0px 15px;background-color: #fff;overflow: auto;}
+.cxmain{width: 956px;margin-top: 5px;border-left: 2px solid #669933;border-bottom: 2px solid #669933;
+        border-right: 2px solid #669933;height: 262px;overflow: auto;background: url("images/footer.jpg")bottom left no-repeat;}
+.cxmainul{line-height: 35px;height: 35px;background: url("images/ic.gif") repeat;} 
+.cxmainul li{margin: 0px;font-size: 14px;cursor: pointer;padding-left: 5px;padding-right: 5px;
+            color: #FFFFFF;font-weight: bold;float: left;} 
+.cxmainul li a{color: #fff;text-decoration: none;}
+.cxmainul li a:hover{text-decoration: underline;}
+.cxtitle{background: url("images/icbg.gif") bottom center;}
